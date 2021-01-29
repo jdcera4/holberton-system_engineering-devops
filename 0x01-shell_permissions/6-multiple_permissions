@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod ug+rwx,o+r /tmp/hello
+chmod ug+x,o+r /tmp/hello
