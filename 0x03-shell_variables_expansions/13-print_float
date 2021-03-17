@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(echo $NUM | cut -d "." -f 1).$(echo $NUM | cut -d "." -f 2 | head -c 2)
+printf "%0.2f\n" $NUM
