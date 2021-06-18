@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# This script is displaying "Holberton School" 10 times
+init=1
+finish=10
+until [ $finish -eq $init ]
+do
+    echo "Holberton School"
+    init=$((init+1))
+done
