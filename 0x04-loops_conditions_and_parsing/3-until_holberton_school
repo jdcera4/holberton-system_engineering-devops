@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # This script is displaying "Holberton School" 10 times
-init=1
+init=0
 finish=10
-until [ $finish -eq $init ]
+until [ $finish -le $init ]
 do
     echo "Holberton School"
     init=$((init+1))
