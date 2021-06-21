@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 # This script print ps -ef
-ps -uef
+ps -uaf
