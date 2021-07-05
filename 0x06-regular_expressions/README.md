@@ -44,3 +44,136 @@ sylvain@ubuntu$ ./example.rb 127.0.0.a
 </ul>
 
 </div>
+<h2 class="gap" id="project-quiz-questions-title">
+    Quiz questions
+  </h2>
+<div class="panel-body">
+        <p id="quiz_questions_collapse_toggle">Hide</p>
+
+      <section class="quiz_questions_show_container" style="display: block;">
+          <div class="quiz_question_item_container" data-role="quiz_question436" data-position="2">
+            <div class=" clearfix" id="quiz_question-436">
+
+    <h4 class="quiz_question">Question #0</h4>
+
+    <!-- Quiz question tags -->
+
+    <!-- Quiz question Body -->
+    <p>What is the <code>/holberton/</code> regexp matching?</p>
+
+
+    <!-- Quiz question Answers -->
+        <ul class="quiz_question_answers" data-question-id="436">
+                <li class="">
+  <input type="checkbox" name="quiz-answer-1506447957526" id="quiz-answer-1506447957526" data-quiz-question-id="436" data-quiz-answer-id="1506447957526" disabled="disabled">
+  <label for="quiz-answer-1506447957526">
+    <p>holbert0n</p>
+
+</label></li>
+
+                <li class="">
+  <input type="checkbox" name="quiz-answer-1506447966080" id="quiz-answer-1506447966080" data-quiz-question-id="436" data-quiz-answer-id="1506447966080" disabled="disabled">
+  <label for="quiz-answer-1506447966080">
+    <p>Holberton</p>
+
+</label></li>
+
+                <li class="">
+  <input type="checkbox" name="quiz-answer-1506447975582" id="quiz-answer-1506447975582" data-quiz-question-id="436" data-quiz-answer-id="1506447975582" disabled="disabled" checked="checked">
+  <label for="quiz-answer-1506447975582">
+    <p>holberton</p>
+
+</label></li>
+
+        </ul>
+
+    <!-- Quiz question Tips -->
+
+</div>
+
+          </div>
+          <div class="quiz_question_item_container" data-role="quiz_question437" data-position="3">
+            <div class=" clearfix" id="quiz_question-437">
+
+    <h4 class="quiz_question">Question #1</h4>
+
+    <!-- Quiz question tags -->
+
+    <!-- Quiz question Body -->
+    <p>What is the <code>/Holbert.n/</code> regexp matching?</p>
+
+
+    <!-- Quiz question Answers -->
+        <ul class="quiz_question_answers" data-question-id="437">
+                <li class="">
+  <input type="checkbox" name="quiz-answer-1506447990910" id="quiz-answer-1506447990910" data-quiz-question-id="437" data-quiz-answer-id="1506447990910" disabled="disabled" checked="checked">
+  <label for="quiz-answer-1506447990910">
+    <p>Holbert.n</p>
+
+</label></li>
+
+                <li class="">
+  <input type="checkbox" name="quiz-answer-1506448010238" id="quiz-answer-1506448010238" data-quiz-question-id="437" data-quiz-answer-id="1506448010238" disabled="disabled" checked="checked">
+  <label for="quiz-answer-1506448010238">
+    <p>Holberton</p>
+
+</label></li>
+
+                <li class="">
+  <input type="checkbox" name="quiz-answer-1506448016293" id="quiz-answer-1506448016293" data-quiz-question-id="437" data-quiz-answer-id="1506448016293" disabled="disabled">
+  <label for="quiz-answer-1506448016293">
+    <p>holberton</p>
+
+</label></li>
+
+        </ul>
+
+    <!-- Quiz question Tips -->
+
+</div>
+
+          </div>
+          <div class="quiz_question_item_container" data-role="quiz_question438" data-position="4">
+            <div class=" clearfix" id="quiz_question-438">
+
+    <h4 class="quiz_question">Question #2</h4>
+
+    <!-- Quiz question tags -->
+
+    <!-- Quiz question Body -->
+    <p>What is the <code>/Holbert*n/</code> regexp matching?</p>
+
+
+    <!-- Quiz question Answers -->
+        <ul class="quiz_question_answers" data-question-id="438">
+                <li class="">
+  <input type="checkbox" name="quiz-answer-1506448055190" id="quiz-answer-1506448055190" data-quiz-question-id="438" data-quiz-answer-id="1506448055190" disabled="disabled" checked="checked">
+  <label for="quiz-answer-1506448055190">
+    <p>Holberttn</p>
+
+</label></li>
+
+                <li class="">
+  <input type="checkbox" name="quiz-answer-1506448057879" id="quiz-answer-1506448057879" data-quiz-question-id="438" data-quiz-answer-id="1506448057879" disabled="disabled">
+  <label for="quiz-answer-1506448057879">
+    <p>Holberton</p>
+
+</label></li>
+
+                <li class="">
+  <input type="checkbox" name="quiz-answer-1506448061984" id="quiz-answer-1506448061984" data-quiz-question-id="438" data-quiz-answer-id="1506448061984" disabled="disabled">
+  <label for="quiz-answer-1506448061984">
+    <p>Holbert.n</p>
+
+</label></li>
+
+        </ul>
+
+    <!-- Quiz question Tips -->
+
+</div>
+
+          </div>
+
+      </section>
+    </div>
