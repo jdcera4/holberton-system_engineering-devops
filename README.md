@@ -24,7 +24,7 @@ Directories | Description
 
 ## Author
 
-David Cera - Cohort 15
+David Cera - Cohort 14
 
 email: jdcera4@gmail.com
 
