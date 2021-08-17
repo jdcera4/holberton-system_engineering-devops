@@ -5,5 +5,5 @@ sudo apt-get -y install nginx
 # Listen port 80
 sudo ufw allow 'Nginx HTTP'
 sudo chmod 777 /var/www/html/
-sudo echo "Holberton School" > /var/www/html
+sudo echo "Holberton School" > /var/www/html/index.html
 sudo service nginx start
