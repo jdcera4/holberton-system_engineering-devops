@@ -1,3 +1,4 @@
+# install ngnx whit puppet and configuration
 package{ 'nginx':
 ensure => installed,
 }
