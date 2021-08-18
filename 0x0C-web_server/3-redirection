@@ -1,13 +1,12 @@
 #!/usr/bin/env bash
-# Web servers are the piece of software generating and serving HTML pages, let’s install one!
-sudo apt-get update
+# Installs nginx web server on ubuntu 16.04
+sudo apt-get -y update
 sudo apt-get -y install nginx
-# Listen port 80
+# Adjust the Firewall port 80
 sudo ufw allow 'Nginx HTTP'
-sudo chmod 777 /var/www/html/
-sudo echo "Holberton School" > /var/www/html/index.html
+# Index file & Start Nginx
+echo "Holberton School" > /var/www/html/index.html
 # Redirection
-sudo chmod u+w etc/nginx/sites-available/default
-sudo sed -i '/listen 80 default_server/a location /redirect_me {/n rewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;/n}' /etc/nginx/sites-available/default
-# start nginx
+sudo sed -i '/listen 80 default_server/a rewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;' /etc/nginx/sites-available/default
+# Start the server
 sudo service nginx restart
