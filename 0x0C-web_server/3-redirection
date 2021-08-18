@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Installs nginx web server on ubuntu 16.04
+# Web servers are the piece of software generating and serving HTML pages, let’s install one!
 sudo apt-get -y update
 sudo apt-get -y install nginx
 # Adjust the Firewall port 80
