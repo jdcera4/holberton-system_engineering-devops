@@ -6,6 +6,7 @@ sudo chown -R ubuntu /etc/default
 sudo chmod 755 /etc/default/
 echo "fronend web_frontend
         bind*:80
+        mode http
         default_backend web_backend
 backend web_backend
         balance roundrobin
