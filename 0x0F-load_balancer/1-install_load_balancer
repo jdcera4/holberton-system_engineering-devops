@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # Install and configure HAproxy
 sudo apt-get update
-apt-get install --no-install-recommends software-properties-common
-add-apt-repository ppa:vbernat/haproxy-2.0
-apt-get install haproxy=2.0.\*
+sudo apt-get install --no-install-recommends software-properties-common
+sudo add-apt-repository ppa:vbernat/haproxy-2.0
+sudo apt-get install haproxy=2.0.\*
 echo "fronend web_frontend
         bind*:80
         default_backend web_backend
