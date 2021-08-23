@@ -8,7 +8,7 @@ package { 'nginx':
   require => Exec['apt-get update'],
 }
 
-file_line { 'Add redirection, 301':
+file_line { 'a':
   ensure  => 'present',
   path    => '/etc/nginx/sites-available/default',
   after   => 'listen 80 default_server;',
@@ -16,7 +16,7 @@ file_line { 'Add redirection, 301':
   require => Package['nginx'],
 }
 
-file_line {'add header':
+file_line {'b':
   ensure  => 'present',
   path    => '/etc/nginx/sites-available/default',
   after   => 'listen 80 default_server;',
