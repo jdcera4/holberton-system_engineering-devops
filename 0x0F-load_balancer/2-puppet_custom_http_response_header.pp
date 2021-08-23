@@ -16,7 +16,7 @@ file_line { 'Add redirection, 301':
   require => Package['nginx'],
 }
 
-file_line {'add header'.
+file_line {'add header':
   ensure  => 'present',
   path    => '/etc/nginx/sites-available/default',
   after   => 'listen 80 default_server;',
