@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# run apache on the containner and to return Hello Holberton
+service apache2 start

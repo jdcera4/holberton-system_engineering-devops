@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Web servers are the piece of software generating and serving HTML pages, let’s install one!
+sudo apt-get -y update
+sudo apt-get -y install nginx
+# Adjust the Firewall port 80
+sudo ufw allow 'Nginx HTTP'
+# Index file & Start Nginx
+echo "Holberton School" > /var/www/html/index.html
+# Redirection
+sudo sed -i '/listen 80 default_server/a rewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;' /etc/nginx/sites-available/default
+# Start the server
+sudo service nginx restart
