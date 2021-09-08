@@ -9,17 +9,17 @@ In these projects, we cover everything from the basics of the Linux Shell, Bash 
 ## Table of contents
 Directories | Description
 ----------- | -----------
-[0x00-shell_basics](./0x00-shell_basics) | Introduction to the basics of the Linux Shell
-[0x01-shell_permissions](./0x01-shell_permissions) | Introduction to Shell permissions and the file system
-[0x02-shell_redirections](./0x02-shell_redirections) | Introduction to Shell redirections
-[0x03-shell_variables_expansions](./0x03-shell_variables_expansions) | Introduction to Shell variable expansions
-[0x04-loops_conditions_and_parsing](./0x04-loops_conditions_and_parsing) | Introduction to Bash scripting with loops and conditions
-[0x05-processes_and_signals](./0x05-processes_and_signals) | Introduction to processes and signals in the Shell
-[0x06-regular_expressions](./0x06-regular_expressions) | Introduction to regular expressions in Ruby
-[0x07-networking_basics](./0x07-networking_basics) | Introduction to networking
-[0x08-networking_basics_2](./0x08-networking_basics_2) | Advanced networking
-[0x09-web_infrastructure_design](./0x09-web_infrastructure_design) | Diagrams illustrating a Web Infrastructure (LAMP)
-[0x0A-configuration_management](./0x0A-configuration_management) | Introduction to configuration management with Puppet
+[0x00-python-hello_world](./0x00-python-hello_world) | Introduction to the basics of the python
+[0x01-python-if_else_loops_functions](./0x01-python-if_else_loops_functions) | Introduction to python conditionals
+[0x02-python-import_modules](./0x02-python-import_modules) | Python import modules
+[0x03-python-data_structures](./0x03-python-data_structures) | Introduction to python data structure
+[0x04-python-more_data_structures](./0x04-python-more_data_structures) | Advanced python data structure
+[0x05-python-exceptions](./0x05-python-exceptions) | Introduction to Python exceptions
+[0x06-python-classes](./0x06-python-classes) | Introduction to python clases
+[0x07-python-test_driven_development](./0x07-python-test_driven_development) | Introduction to python testing
+[0x08-python-more_classes](./0x08-python-more_classes) | Advanced python class
+[0x09-python-everything_is_object](./0x09-python-everything_is_object) | Introduction to python objects
+[0x0A-python-inheritance](./0x0A-python-inheritance) | Introduction to python inheritance
 
 
 ## Author
