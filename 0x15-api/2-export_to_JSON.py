@@ -1,11 +1,10 @@
 #!/usr/bin/python3
 """ export data in the JSON format
 """
-import csv
-import requests
-from sys import argv as av
 import json
+from sys import argv as av
 
+import requests
 
 if __name__ == "__main__":
     id_empl = int(av[1])
