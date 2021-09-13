@@ -1,7 +1,8 @@
 #!/usr/bin/python3
+""" Module gether data from an API
+"""
 import requests
 from sys import argv
-"""Connect to api """
 
 
 if __name__ == "__main__":
