@@ -10,8 +10,8 @@ if __name__ == "__main__":
     id_empl = int(av[1])
     user = requests.get("https://jsonplaceholder.typicode.com/users/{}".
                         format(id_empl)).json()
-    todos = requests.get("https://jsonplaceholder.typicode.com/todos?userId={}".
-                        format(id_empl)).json()
+    todos = requests.get("https://jsonplaceholder.typicode.com/todos?userId={}"
+                         .format(id_empl)).json()
     # List of list all data I need export
     data = {
         av[1]:
