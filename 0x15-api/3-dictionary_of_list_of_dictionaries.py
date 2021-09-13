@@ -1,7 +1,9 @@
 #!/usr/bin/python3
 import json
-import requests
 from sys import argv
+
+import requests
+
 """
 accessing a url with employee ID to return information
 """
